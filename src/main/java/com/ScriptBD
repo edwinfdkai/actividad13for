@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS socios (
+  id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  documento INT NOT NULL,
+  nombre varchar(50) NOT NULL,
+  apellido varchar(50) NOT NULL,
+  edad INT NOT NULL,
+  ocupacion VARCHAR(100) NOT NULL,
+  fechaNac VARCHAR(100) NOT NULL
+) ;
